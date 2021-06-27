@@ -8,65 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
-    <style>
-      .lead {
-        font-size: 1.25rem;
-        font-weight: 300
-      }
-      .social {
-        text-align: left;
-        margin-top: 40px
-      }
-      .social a {
-        margin: 0 10px 0 0;
-        color: #333;
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
-        line-height: 40px;
-        font-size: 13px;
-        text-align: center;
-        transition: all .2s ease-out;
-        border: solid 1px #333
-      }
-      .social a i {
-        vertical-align: bottom;
-        line-height: 40px;
-        font-size: 18px;
-      }
-      .social a:hover {
-        background: transparent
-      }
-      .social a:hover.linkedin {
-        color: #4460ae;
-        border-color: #4460ae
-      }
-      .social a:hover.twitter {
-        color: #3cf;
-        border-color: #3cf
-      }
-      .social a:hover.email {
-        color: #4a7f45;
-        border-color: #4a7f45
-      }
-      .social a:hover.link {
-        color: #871AFF;
-        border-color: #871AFF
-      }
-      .credit {
-        margin-top: 3rem;
-        font-size: 0.8rem;
-        color: #adb5bd
-      }
-      .intro-right {
-          min-height: 500px;
-          background-color: #333;
-          /* background: url("") center center no-repeat;
-          background-size: cover */
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets//css/style.css"/>
   </head>
   <body data-gr-c-s-loaded="true">
     <div class="container-fluid">
@@ -76,22 +19,42 @@
             <h1 class="text-uppercase">Ivan Porta</h1>
             <p class="lead">Software Developer</p>
             <p>Energetic and motivated software developer with experience in developing both web and client-based applications. Ivan is an ambitious developer who loves new technologies and finding ways to implement them in his projects to make his client’s lives easier. </p>
-            <p class="social">
-              <a href="https://github.com/gtrekter" class="facebook">
-                <i class="ion-social-github"></i>
+            <p class="social text-center icon-only">
+              <a href="https://github.com/gtrekter" class="github">
+                <ion-icon class="icon" name="logo-github"></ion-icon>
+                <span class="text">github.com/gtrekter</span>
               </a>
               <a href="https://www.linkedin.com/in/ivanporta/" class="linkedin">
-                <i class="ion-social-linkedin"></i>
+                <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+                <span class="text">linkedin.com/in/ivanporta</span>
               </a>
               <a href="https://twitter.com/gtrekter" class="twitter">
-                <i class="ion-social-twitter"></i>
+                <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                <span class="text">@gtrekter</span>
+              </a>
+              <a href="https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/45033" class="microsoft">
+                <ion-icon class="icon" name="logo-microsoft"></ion-icon>
+                <span class="text">techcommunity.microsoft.com</span>
+              </a>
+              <a href="https://stackoverflow.com/users/6613232/ivan-porta" class="stackoverflow">
+                <ion-icon class="icon" name="logo-stackoverflow"></ion-icon>
+                <span class="text">stackoverflow.com</span>
+              </a>
+              <a href="https://ivanporta.com/" class="blog">
+                <ion-icon class="icon" name="globe"></ion-icon>
+                <span class="text">ivanporta.com</span>
               </a>
             </p>
             <p class="credit">© 2020 Ivan Porta </p>
           </div>
         </div>
-        <div class="col-xl-6 col-lg-5 col-md-4 intro-right"></div>
+        <div class="col-xl-6 col-lg-5 col-md-4 intro-right">
+          <!-- <img src="./assets/images/ivanportabody2.png" class="img-body" alt="Ivan Porta">    -->
+          <img src="./assets/images/ivanporta.jpg" class="profile img-circle" alt="Ivan Porta">         
+        </div>
       </div>
     </div>
   </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>

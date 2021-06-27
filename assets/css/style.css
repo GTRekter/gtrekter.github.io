@@ -1,0 +1,107 @@
+/*===== General ====*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none !important;
+}
+/*===== Text ====*/
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300
+}
+.intro-right {
+    min-height: 500px;
+    background-color: #333;
+    background: url("../images/background.png") center center no-repeat;
+    background-size: cover 
+}
+.intro-right img.profile {
+    position: relative; 
+    top: 50%; 
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+/* 
+.intro-right .img-body {
+    position: absolute;
+    width: 45%;
+    left: 20%;
+    bottom: 0;
+} */
+/*===== Social ====*/
+.social {
+    text-align: left;
+    margin-top: 40px
+}
+.social a {
+    height: 40px;
+    width: 40px;
+    color: #333;
+    display: inline-flex;
+    border-radius: 20px;
+    line-height: 36px;
+    font-size: 13px;
+    text-align: center;
+    transition: all .4s ease-out;
+    border: solid 1px #333;
+    margin: 0 10px 10px 0;
+}
+.social a .icon {
+    vertical-align: middle;
+    font-size: 27px;
+    padding: 5px;
+}
+.social a .text {
+    width: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-out;
+}
+.social a:hover {
+    border-color: transparent;
+}
+.social a:hover .text {
+    visibility: visible;
+    opacity: initial;
+    border-radius: 20px;
+}
+.social a:hover.github {
+    width: 180px;
+    color: #ffffff;
+    background-color: #211F1F;
+}
+.social a:hover.linkedin {
+    width: 215px;
+    color: #ffffff;
+    background-color: #4460ae;
+}
+.social a:hover.microsoft {
+    width: 250px;
+    color: #ffffff;
+    background-color: #66CC33;
+}
+.social a:hover.stackoverflow {
+    width: 165px;
+    color: #ffffff;
+    background-color: #F48024
+}
+.social a:hover.twitter {
+    width: 120px;
+    color: #ffffff;
+    background-color: #3cf
+}
+.social a:hover.blog {
+    width: 145px;
+    color: #ffffff;
+    background-color: #BCBBBB
+}
+/* .social a:hover.link {
+    color: #871AFF;
+    border-color: #871AFF
+} */
+.credit {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: #adb5bd
+}
