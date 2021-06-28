@@ -20,15 +20,10 @@ a {
     position: relative; 
     top: 50%; 
     left: 50%;
+    width: 200px;
     transform: translateY(-50%) translateX(-50%);
+    /* border: #333 1px solid; */
 }
-/* 
-.intro-right .img-body {
-    position: absolute;
-    width: 45%;
-    left: 20%;
-    bottom: 0;
-} */
 /*===== Social ====*/
 .social {
     text-align: left;
@@ -56,6 +51,7 @@ a {
     width: 0px;
     visibility: hidden;
     opacity: 0;
+    font-size: 16px;
     transition: all .4s ease-out;
 }
 .social a:hover {
@@ -67,39 +63,36 @@ a {
     border-radius: 20px;
 }
 .social a:hover.github {
-    width: 180px;
+    width: 210px;
     color: #ffffff;
     background-color: #211F1F;
 }
 .social a:hover.linkedin {
-    width: 215px;
+    width: 255px;
     color: #ffffff;
     background-color: #4460ae;
 }
 .social a:hover.microsoft {
-    width: 250px;
+    width: 290px;
     color: #ffffff;
     background-color: #66CC33;
 }
 .social a:hover.stackoverflow {
-    width: 165px;
+    width: 190px;
     color: #ffffff;
     background-color: #F48024
 }
 .social a:hover.twitter {
-    width: 120px;
+    width: 130px;
     color: #ffffff;
     background-color: #3cf
 }
 .social a:hover.blog {
-    width: 145px;
+    width: 165px;
     color: #ffffff;
     background-color: #BCBBBB
 }
-/* .social a:hover.link {
-    color: #871AFF;
-    border-color: #871AFF
-} */
+/*===== Credits ====*/
 .credit {
     margin-top: 3rem;
     font-size: 0.8rem;
