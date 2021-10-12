@@ -57,11 +57,11 @@ a {
 .social a:hover {
     border-color: transparent;
 }
-.social a:hover .text {
+/* .social a:hover .text {
     visibility: visible;
     opacity: initial;
     border-radius: 20px;
-}
+} */
 .social a:hover.github {
     width: 210px;
     color: #ffffff;
