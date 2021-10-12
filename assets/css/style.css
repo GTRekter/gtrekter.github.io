@@ -63,32 +63,32 @@ a {
     border-radius: 20px;
 } */
 .social a:hover.github {
-    width: 210px;
+    /* width: 210px; */
     color: #ffffff;
     background-color: #211F1F;
 }
 .social a:hover.linkedin {
-    width: 255px;
+    /* width: 255px; */
     color: #ffffff;
     background-color: #4460ae;
 }
 .social a:hover.microsoft {
-    width: 290px;
+    /* width: 290px; */
     color: #ffffff;
     background-color: #66CC33;
 }
 .social a:hover.stackoverflow {
-    width: 190px;
+    /* width: 190px; */
     color: #ffffff;
     background-color: #F48024
 }
 .social a:hover.twitter {
-    width: 130px;
+    /* width: 130px; */
     color: #ffffff;
     background-color: #3cf
 }
 .social a:hover.blog {
-    width: 195px;
+    /* width: 195px; */
     color: #ffffff;
     background-color: #BCBBBB
 }
