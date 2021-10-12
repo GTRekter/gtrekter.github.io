@@ -87,14 +87,19 @@ a {
     color: #ffffff;
     background-color: #3cf
 }
+.social a:hover.instagram {
+    /* width: 130px; */
+    color: #ffffff;
+    background-color: #DD2A7B;
+}
 .social a:hover.blog {
     /* width: 195px; */
     color: #ffffff;
-    background-color: #BCBBBB
+    background-color: #BCBBBB;
 }
 /*===== Credits ====*/
 .credit {
     margin-top: 3rem;
     font-size: 0.8rem;
-    color: #adb5bd
+    color: #adb5bd;
 }
