@@ -34,12 +34,17 @@ a {
     font-size: 1.25rem;
     font-weight: 300
 }
+/* .intro-right {
+    overflow: hidden;
+    min-height: 500px;
+    background-color: #333; 
+    background: url("../images/background.jpg") center center no-repeat;
+    background-size: cover 
+} */
 .intro-right {
     overflow: hidden;
     min-height: 500px;
-    background-color: #333;
-    background: url("../images/background-noelements.jpg") center center no-repeat;
-    background-size: cover 
+    background-color: #00abed; 
 }
 .intro-right img.profile {
     position: relative; 
@@ -98,6 +103,29 @@ a {
     width: 132px;
     height: 203px;
     background-image: url('../images/light.png');
+}
+.city {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 500px;
+    background: url(../images/city.png) no-repeat;    
+    background-size: 1000px;
+    /* background-position-x: right; */
+    background-position-y: bottom;
+}
+.skyline {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 500px;
+    background: url(../images/skyline.png) no-repeat;
+    background-position: left;
+    background-size: 1400px;
+    /* background-position-x: right; */
+    background-position-y: bottom;
 }
 /*===== Social ====*/
 .social {
