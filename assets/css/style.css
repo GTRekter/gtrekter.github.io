@@ -13,7 +13,7 @@ a {
 .intro-right {
     min-height: 500px;
     background-color: #333;
-    background: url("../images/background.png") center center no-repeat;
+    background: url("../images/background-noelements.jpg") center center no-repeat;
     background-size: cover 
 }
 .intro-right img.profile {

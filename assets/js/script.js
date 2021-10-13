@@ -1,0 +1,1 @@
+https://gtrekter.medium.com/feed
