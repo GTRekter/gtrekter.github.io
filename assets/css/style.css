@@ -1,3 +1,27 @@
+/*===== Keyframes ====*/
+@keyframes horizontal-translation {
+	0% {
+        margin-left: 100%;
+    }
+	100% {
+        margin-left: -150%;
+    }
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(113, 208, 245, 0);
+    }
+    45% {
+        box-shadow: 0 0 0 20px rgba(113, 208, 245, 0.6);
+    }
+    /* 100% {
+        box-shadow: 0 0 0 20px rgba(113, 208, 245, 0);
+    } */
+}
+@keyframes pulse-alternate {
+    0% {transform: scale(0.75, 0.75);}
+    30% {transform: scale(1, 1);}
+}
 /*===== General ====*/
 body {
     font-family: 'Montserrat', sans-serif;
@@ -11,6 +35,7 @@ a {
     font-weight: 300
 }
 .intro-right {
+    overflow: hidden;
     min-height: 500px;
     background-color: #333;
     background: url("../images/background-noelements.jpg") center center no-repeat;
@@ -23,6 +48,46 @@ a {
     width: 200px;
     transform: translateY(-50%) translateX(-50%);
     /* border: #333 1px solid; */
+}
+
+/*===== Moving elements and effects ====*/
+.pulse {
+    animation: pulse 2s infinite;
+    /* animation: pulse-alternate 0.8s ease-out alternate;
+    animation-iteration-count: infinite; */
+}
+.cloud {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cloud-short {
+    top: 2%;
+    left: 100px;
+    width: 35%;
+    height: 13%;
+    max-width: 183px;
+    max-height: 94px;
+    background-image: url('../images/cloud1.png');
+    animation: horizontal-translation 25s linear infinite;
+}
+.cloud-long {
+    top: 20%;
+    left: 10px;
+    width: 30%;
+    height: 13%;
+    max-width: 232px;
+    max-height: 94px;
+    background-image: url('../images/cloud2.png');
+    animation: horizontal-translation 20s linear infinite;
+}
+.light {
+    position: absolute;
+    top: 7rem;
+    left: -4rem;
+    width: 132px;
+    height: 203px;
+    background-image: url('../images/light.png');
 }
 /*===== Social ====*/
 .social {
