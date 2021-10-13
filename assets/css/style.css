@@ -61,7 +61,7 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.cloud-short {
+.cloud-shape1 {
     top: 2%;
     left: 100px;
     width: 35%;
@@ -71,7 +71,7 @@ a {
     background-image: url('../images/cloud1.png');
     animation: horizontal-translation 25s linear infinite;
 }
-.cloud-long {
+.cloud-shape2 {
     top: 20%;
     left: 10px;
     width: 30%;
@@ -79,6 +79,16 @@ a {
     max-width: 232px;
     max-height: 94px;
     background-image: url('../images/cloud2.png');
+    animation: horizontal-translation 20s linear infinite;
+}
+.cloud-shape3 {
+    top: 15%;
+    left: 120%;
+    width: 30%;
+    height: 13%;
+    max-width: 232px;
+    max-height: 94px;
+    background-image: url('../images/cloud1.png');
     animation: horizontal-translation 20s linear infinite;
 }
 .light {
