@@ -14,9 +14,6 @@
     45% {
         box-shadow: 0 0 0 20px rgba(113, 208, 245, 0.6);
     }
-    /* 100% {
-        box-shadow: 0 0 0 20px rgba(113, 208, 245, 0);
-    } */
 }
 @keyframes pulse-alternate {
     0% {transform: scale(0.75, 0.75);}
@@ -34,13 +31,6 @@ a {
     font-size: 1.25rem;
     font-weight: 300
 }
-/* .intro-right {
-    overflow: hidden;
-    min-height: 500px;
-    background-color: #333; 
-    background: url("../images/background.jpg") center center no-repeat;
-    background-size: cover 
-} */
 .intro-right {
     overflow: hidden;
     min-height: 500px;
@@ -52,14 +42,25 @@ a {
     left: 50%;
     width: 200px;
     transform: translateY(-50%) translateX(-50%);
-    /* border: #333 1px solid; */
 }
+@media (min-width: 768px) {
+    .intro-left {
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+    }
+    .intro-right {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
 
 /*===== Moving elements and effects ====*/
 .pulse {
     animation: pulse 2s infinite;
-    /* animation: pulse-alternate 0.8s ease-out alternate;
-    animation-iteration-count: infinite; */
 }
 .cloud {
     position: absolute;
@@ -112,7 +113,6 @@ a {
     min-height: 500px;
     background: url(../images/city.png) no-repeat;    
     background-size: 1000px;
-    /* background-position-x: right; */
     background-position-y: bottom;
 }
 .skyline {
@@ -124,13 +124,12 @@ a {
     background: url(../images/skyline.png) no-repeat;
     background-position: left;
     background-size: 1400px;
-    /* background-position-x: right; */
     background-position-y: bottom;
 }
 /*===== Social ====*/
 .social {
     text-align: left;
-    margin-top: 40px
+    /* margin-top: 40px */
 }
 .social a {
     height: 40px;
@@ -160,43 +159,31 @@ a {
 .social a:hover {
     border-color: transparent;
 }
-/* .social a:hover .text {
-    visibility: visible;
-    opacity: initial;
-    border-radius: 20px;
-} */
 .social a:hover.github {
-    /* width: 210px; */
     color: #ffffff;
     background-color: #211F1F;
 }
 .social a:hover.linkedin {
-    /* width: 255px; */
     color: #ffffff;
     background-color: #4460ae;
 }
 .social a:hover.microsoft {
-    /* width: 290px; */
     color: #ffffff;
     background-color: #66CC33;
 }
 .social a:hover.stackoverflow {
-    /* width: 190px; */
     color: #ffffff;
     background-color: #F48024
 }
 .social a:hover.twitter {
-    /* width: 130px; */
     color: #ffffff;
     background-color: #3cf
 }
 .social a:hover.instagram {
-    /* width: 130px; */
     color: #ffffff;
     background-color: #DD2A7B;
 }
 .social a:hover.blog {
-    /* width: 195px; */
     color: #ffffff;
     background-color: #BCBBBB;
 }
