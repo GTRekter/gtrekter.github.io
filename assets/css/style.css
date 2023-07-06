@@ -214,6 +214,10 @@ a {
     color: #ffffff;
     background-color: #1ab394;
 }
+.social a:hover.credly {
+    color: #ffffff;
+    background-color: #005850;
+}
 .social a:hover.blog {
     color: #ffffff;
     background-color: #BCBBBB;
