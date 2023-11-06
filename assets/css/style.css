@@ -219,8 +219,28 @@ a {
     background-color: #005850;
 }
 .social a:hover.blog {
-    color: #ffffff;
     background-color: #BCBBBB;
+}
+.social a:hover.blog path {
+    fill: #ffffff;
+}
+.social a:hover.naver {
+    background-color: #3EAF0E;
+}
+.social a:hover.naver path {
+    fill: #ffffff;
+}
+.social a:hover.line {
+    background-color: #00b900;
+}
+.social a:hover.line path {
+    fill: #ffffff;
+}
+.social a:hover.kakao {
+    background-color: #ffe812;
+}
+.social a:hover.kakao path {
+    fill: #ffffff;
 }
 /*===== Articles/Projects ====*/
 .list-group .list-group-item:first-child {
